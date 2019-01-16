@@ -1,16 +1,17 @@
 {
   "name": "nestjs-mongodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nest.js extenstion defindning providers for mongodb-typescript",
   "repository": {
     "type": "git",
     "url": "https://github.com/aljazerzen/nestjs-mongo.git"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "scripts": {
+    "build": "rm -rf lib && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
